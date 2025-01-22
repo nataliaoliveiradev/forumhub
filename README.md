@@ -79,14 +79,47 @@ Antes de começar, certifique-se de ter os seguintes itens instalados no seu amb
 
 ## <h2 align="center">Como Executar o Projeto</h2>
 
+### 📁 Acesso ao projeto
+
+Clone o repositório com o comando:
+
+```bash
+git clone https://github.com/seuusuario/forumhub.git
+```
+
+### 🛠️ Configuração e Execução
+
+1. Configure o arquivo `application.properties` com as credenciais do seu banco de dados:
+   ```properties
+   spring.datasource.url=jdbc:postgresql://localhost:5432/forumhub
+   spring.datasource.username=seu_usuario
+   spring.datasource.password=sua_senha
+   ```
+
+2. Execute o comando Maven para compilar o projeto:
+   ```bash
+   mvn clean install
+   ```
+
+3. Inicie a aplicação:
+   ```bash
+   mvn spring-boot:run
+   ```
+
+4. Acesse a API na URL:
+   ```
+   http://localhost:8080
+   ```
+
+---
 
 ## <h2 align="center">Autor</h2>
 
 <div align="center">
 
-| [<img src="https://avatars.githubusercontent.com/u/172914574?v=4" width=115><br><sub>Natalia Oliveira</sub>](https://github.com/nataliaoliveiradev) |
+| [<img src="https://avatars.githubusercontent.com/u/12345678?v=4" width=115><br><sub>Seu Nome</sub>](https://github.com/seuusuario) |
 | :---: |
-| **Bacharel em Direito, estudante de Ciência da Computação e entusiasta do desenvolvimento fullstack.** |
+| **Desenvolvedor Backend, entusiasta de Java e apaixonado por tecnologia.** |
 
 </div>
 
@@ -94,9 +127,9 @@ Antes de começar, certifique-se de ter os seguintes itens instalados no seu amb
 
 ## <h2 align="center">Contato</h2>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=ff6e96)](https://www.linkedin.com/in/nataliaoliveiradev/)  
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=ff6e96)](https://github.com/nataliaoliveiradev)  
-[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=ff6e96)](mailto:profissionalnataliaoliveira@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seulinkedin/)  
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seuusuario)  
+[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:seuemail@exemplo.com)
 
 ---
 
@@ -107,3 +140,4 @@ Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o
 </p>
 
 ---
+```
